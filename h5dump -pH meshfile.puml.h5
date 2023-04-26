@@ -1,0 +1,80 @@
+HDF5 "loh.puml.h5" {
+GROUP "/" {
+   DATASET "boundary" {
+      DATATYPE  H5T_STD_I32LE
+      DATASPACE  SIMPLE { ( 11921613 ) / ( 11921613 ) }
+      STORAGE_LAYOUT {
+         CONTIGUOUS
+         SIZE 47686452
+         OFFSET 479306204
+      }
+      FILTERS {
+         NONE
+      }
+      FILLVALUE {
+         FILL_TIME H5D_FILL_TIME_IFSET
+         VALUE  H5D_FILL_VALUE_DEFAULT
+      }
+      ALLOCATION_TIME {
+         H5D_ALLOC_TIME_EARLY
+      }
+   }
+   DATASET "connect" {
+      DATATYPE  H5T_STD_U64LE
+      DATASPACE  SIMPLE { ( 11921613, 4 ) / ( 11921613, 4 ) }
+      STORAGE_LAYOUT {
+         CONTIGUOUS
+         SIZE 381491616
+         OFFSET 2048
+      }
+      FILTERS {
+         NONE
+      }
+      FILLVALUE {
+         FILL_TIME H5D_FILL_TIME_IFSET
+         VALUE  H5D_FILL_VALUE_DEFAULT
+      }
+      ALLOCATION_TIME {
+         H5D_ALLOC_TIME_EARLY
+      }
+   }
+   DATASET "geometry" {
+      DATATYPE  H5T_IEEE_F64LE
+      DATASPACE  SIMPLE { ( 2088587, 3 ) / ( 2088587, 3 ) }
+      STORAGE_LAYOUT {
+         CONTIGUOUS
+         SIZE 50126088
+         OFFSET 381493664
+      }
+      FILTERS {
+         NONE
+      }
+      FILLVALUE {
+         FILL_TIME H5D_FILL_TIME_IFSET
+         VALUE  H5D_FILL_VALUE_DEFAULT
+      }
+      ALLOCATION_TIME {
+         H5D_ALLOC_TIME_EARLY
+      }
+   }
+   DATASET "group" {
+      DATATYPE  H5T_STD_I32LE
+      DATASPACE  SIMPLE { ( 11921613 ) / ( 11921613 ) }
+      STORAGE_LAYOUT {
+         CONTIGUOUS
+         SIZE 47686452
+         OFFSET 431619752
+      }
+      FILTERS {
+         NONE
+      }
+      FILLVALUE {
+         FILL_TIME H5D_FILL_TIME_IFSET
+         VALUE  H5D_FILL_VALUE_DEFAULT
+      }
+      ALLOCATION_TIME {
+         H5D_ALLOC_TIME_EARLY
+      }
+   }
+}
+}
