@@ -1,0 +1,61 @@
+Info    : It. 1865000 - 1860610 nodes created - worst tet radius 1.0006 (nodes removed 570 3820)
+Info    : It. 1865500 - 1861108 nodes created - worst tet radius 1.0005 (nodes removed 571 3821)
+Info    : It. 1866000 - 1861607 nodes created - worst tet radius 1.00042 (nodes removed 572 3821)
+Info    : It. 1866500 - 1862107 nodes created - worst tet radius 1.00033 (nodes removed 572 3821)
+Info    : It. 1867000 - 1862607 nodes created - worst tet radius 1.00024 (nodes removed 572 3821)
+Info    : It. 1867500 - 1863105 nodes created - worst tet radius 1.00014 (nodes removed 572 3823)
+Info    : It. 1868000 - 1863603 nodes created - worst tet radius 1.00005 (nodes removed 574 3823)
+Info    : 3D refinement terminated (2088718 nodes total):
+Info    :  - 548 Delaunay cavities modified for star shapeness
+Info    :  - 4397 nodes could not be inserted
+Info    :  - 12629706 tetrahedra created in 198.465 sec. (63637 tets/s)
+Info    : Done meshing 3D (Wall 328.152s, CPU 323.701s)
+Info    : Optimizing mesh...
+Info    : Optimizing volume 1
+Info    : Optimization starts (volume = 1.77364e+12) with worst = 1.85937e-09 / average = 0.783077:
+Info    : 0.00 < quality < 0.10 :     31441 elements
+Info    : 0.10 < quality < 0.20 :     82763 elements
+Info    : 0.20 < quality < 0.30 :    147361 elements
+Info    : 0.30 < quality < 0.40 :    232305 elements
+Info    : 0.40 < quality < 0.50 :    362062 elements
+Info    : 0.50 < quality < 0.60 :    599696 elements
+Info    : 0.60 < quality < 0.70 :   1134970 elements
+Info    : 0.70 < quality < 0.80 :   2638253 elements
+Info    : 0.80 < quality < 0.90 :   4810164 elements
+Info    : 0.90 < quality < 1.00 :   2590691 elements
+Info    : 1323705 edge swaps, 6461078 node relocations (volume = 1.77364e+12): worst = 1.35998e-05 / average = 0.842275 (Wall 738.05s, CPU 732.428s)
+Info    : 1495927 edge swaps, 10669521 node relocations (volume = 1.77364e+12): worst = 1.55721e-05 / average = 0.849463 (Wall 1497.3s, CPU 1486.47s)
+Info    : 1534376 edge swaps, 12984823 node relocations (volume = 1.77364e+12): worst = 1.55721e-05 / average = 0.850727 (Wall 2250.73s, CPU 2234.83s)
+Warning : 108 ill-shaped tets are still in the mesh
+Info    : 0.00 < quality < 0.10 :      3704 elements
+Info    : 0.10 < quality < 0.20 :      5582 elements
+Info    : 0.20 < quality < 0.30 :     10305 elements
+Info    : 0.30 < quality < 0.40 :     15318 elements
+Info    : 0.40 < quality < 0.50 :     25704 elements
+Info    : 0.50 < quality < 0.60 :     80933 elements
+Info    : 0.60 < quality < 0.70 :    491975 elements
+Info    : 0.70 < quality < 0.80 :   2254550 elements
+Info    : 0.80 < quality < 0.90 :   5017122 elements
+Info    : 0.90 < quality < 1.00 :   3874221 elements
+Info    : Done optimizing mesh (Wall 2296.47s, CPU 2277.66s)
+Info    : 2088587 nodes 12372437 elements
+Warning : ------------------------------
+Warning : Mesh generation error summary
+Warning :     1 warning
+Warning :     0 errors
+Warning : Check the full log for details
+Warning : ------------------------------
+Info    : Writing 'loh.msh'...
+Info    : Done writing 'loh.msh'
+Info    : Stopped on Tue Apr 25 15:01:42 2023 (From start: Wall 2664.88s, CPU 2642.34s)
+Tue Apr 25 15:01:55, Info:  Using GMSH mesh format 2 (msh2) mesh 
+Tue Apr 25 15:02:07, Info:  Create APF connectivity 
+Tue Apr 25 15:04:01, Info:  Set coordinates in APF 
+Tue Apr 25 15:05:30, Info:  Mesh size: 11921613 
+Tue Apr 25 15:05:32, Info:  Minimum insphere found: 9.11077e-05 
+Tue Apr 25 15:05:34, Info:  Writing cells 
+Tue Apr 25 15:05:38, Info:  Writing vertices 
+Tue Apr 25 15:05:38, Info:  Writing group information 
+Tue Apr 25 15:05:39, Info:  Writing boundary condition 
+Tue Apr 25 15:05:39, Info:  Writing XDMF file 
+Tue Apr 25 15:05:39, Info:  Finished successfully 
